@@ -7,8 +7,8 @@
     let kartupeli = Number(document.forms["ievaddati"]["kartupeli"].value);
     let gala = Number(document.forms["ievaddati"]["gala"].value);
     
-    cena_rimi = (burkani*cenu_saraksts_rimi[0]+kartupeli*cenu_saraksts_rimi[1]+gala*cenu_saraksts_rimi[2])
-    cena_maxima = 10000
+    cena_rimi = (burkani*cenu_saraksts_rimi[0]+kartupeli*cenu_saraksts_rimi[1]+gala*cenu_saraksts_rimi[2]);
+    cena_maxima = 10000;
     
     if (cena_rimi < cena_maxima) {
       document.forms["ievaddati"]["kop_cena"].value = cena_rimi;
