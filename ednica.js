@@ -12,8 +12,10 @@
     
     if (cena_rimi < cena_maxima) {
       document.forms["ievaddati"]["kop_cena"].value = cena_rimi;
+      document.forms["ievaddati"]["veikals"].value = "rimi";
     } else {
       document.forms["ievaddati"]["kop_cena"].value = cena_maxima;
+      document.forms["ievaddati"]["veikals"].value = "maxima";
     }
     
   
